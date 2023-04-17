@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "x0rtelgO76ItafuilL7TW7JwLpeEmrn6sB5ReTW5Q2hdA8x0zlrBTnG9S5PahCd1/+gxSSwNFrpOSWQ6T84gdw==",
+  "success": true,
+  "projectFilePath": "C:\\Projetos\\Davi\\IA\\JobChatGPT\\JobChatGPT\\JobChatGPT.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Davi\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
+    "C:\\Users\\Davi\\.nuget\\packages\\microsoft.extensions.configuration\\2.1.0\\microsoft.extensions.configuration.2.1.0.nupkg.sha512",
+    "C:\\Users\\Davi\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\2.1.0\\microsoft.extensions.configuration.abstractions.2.1.0.nupkg.sha512",
+    "C:\\Users\\Davi\\.nuget\\packages\\microsoft.extensions.configuration.binder\\2.1.0\\microsoft.extensions.configuration.binder.2.1.0.nupkg.sha512",
+    "C:\\Users\\Davi\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512",
+    "C:\\Users\\Davi\\.nuget\\packages\\microsoft.extensions.http\\2.1.0\\microsoft.extensions.http.2.1.0.nupkg.sha512",
+    "C:\\Users\\Davi\\.nuget\\packages\\microsoft.extensions.logging\\2.1.0\\microsoft.extensions.logging.2.1.0.nupkg.sha512",
+    "C:\\Users\\Davi\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\2.1.0\\microsoft.extensions.logging.abstractions.2.1.0.nupkg.sha512",
+    "C:\\Users\\Davi\\.nuget\\packages\\microsoft.extensions.options\\2.1.0\\microsoft.extensions.options.2.1.0.nupkg.sha512",
+    "C:\\Users\\Davi\\.nuget\\packages\\microsoft.extensions.primitives\\2.1.0\\microsoft.extensions.primitives.2.1.0.nupkg.sha512",
+    "C:\\Users\\Davi\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\Davi\\.nuget\\packages\\openai\\1.7.2\\openai.1.7.2.nupkg.sha512",
+    "C:\\Users\\Davi\\.nuget\\packages\\openai.chatgpt\\1.1.0\\openai.chatgpt.1.1.0.nupkg.sha512",
+    "C:\\Users\\Davi\\.nuget\\packages\\system.memory\\4.5.0\\system.memory.4.5.0.nupkg.sha512",
+    "C:\\Users\\Davi\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.0\\system.runtime.compilerservices.unsafe.4.5.0.nupkg.sha512",
+    "C:\\Users\\Davi\\.nuget\\packages\\wtelegramclient\\3.3.3\\wtelegramclient.3.3.3.nupkg.sha512"
+  ],
+  "logs": []
+}
