@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33414.496
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobChatGPT", "JobChatGPT\JobChatGPT.csproj", "{781060A2-6084-4EB2-852B-3D8C74A00041}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JobChatGPT", "JobChatGPT\JobChatGPT.csproj", "{781060A2-6084-4EB2-852B-3D8C74A00041}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobCheckerMl", "JobCheckerMl\JobCheckerMl.csproj", "{CF8C70FB-B9C1-4DD2-AD2F-50E77E7225FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{781060A2-6084-4EB2-852B-3D8C74A00041}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{781060A2-6084-4EB2-852B-3D8C74A00041}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{781060A2-6084-4EB2-852B-3D8C74A00041}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF8C70FB-B9C1-4DD2-AD2F-50E77E7225FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF8C70FB-B9C1-4DD2-AD2F-50E77E7225FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF8C70FB-B9C1-4DD2-AD2F-50E77E7225FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF8C70FB-B9C1-4DD2-AD2F-50E77E7225FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
