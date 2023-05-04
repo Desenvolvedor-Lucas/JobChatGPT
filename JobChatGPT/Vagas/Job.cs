@@ -53,7 +53,7 @@ namespace JobChatGPT.Vagas
 
             //Pega os atributos por parte, indenpendente de quantas vagas tenham
             var funcoes = Regex.Matches(resposta, @"Função: (.+)", RegexOptions.IgnoreCase);
-            var descricoes = Regex.Matches(resposta, @"Descrição: (.+)", RegexOptions.IgnoreCase);
+            var descricoes = Regex.Matches(resposta, @"Descrição ?([Cc]ompleta)?: (.+)", RegexOptions.IgnoreCase);
             var locais = Regex.Matches(resposta, @"Localização: (.+)", RegexOptions.IgnoreCase);
             var remotos = Regex.Matches(resposta, @"Remoto: (.+)", RegexOptions.IgnoreCase);
             var salarios = Regex.Matches(resposta, @"Sal[aá]rio: (.+)", RegexOptions.IgnoreCase);
@@ -66,7 +66,6 @@ namespace JobChatGPT.Vagas
             for (var i = 0; i < funcoes.Count; i++)
             {
                 var funcao = funcoes[i].Groups[1].Value;
-                var descricao = descricoes[i].Groups[1].Value;
                 var local = locais[i].Groups[1].Value;
                 var remoto = remotos[i].Groups[1].Value;
                 var salario = salarios[i].Groups[1].Value;
@@ -74,6 +73,10 @@ namespace JobChatGPT.Vagas
                 var email = emails[i].Groups[1].Value;
                 var dataPublicacao = DateTime.Now.ToString("dd/MM/yyyy");
 
+                var descricao = ""; 
+                try { descricao = descricoes[i].Groups[2].Value; }
+                catch { descricao = descricoes[i].Groups[1].Value; }
+                
                 var url = "";
                 try { url = urls[i].Groups[2].Value; }
                 catch { url = urls[i].Groups[1].Value; }
